@@ -1,0 +1,547 @@
+:root {
+    --font-family: 'Bai Jamjuree', sans-serif;
+    --font-size-1: 26px;
+    --font-size-2: 22px;
+    --font-size-3: 18px;
+    --font-size-4: 14px;
+    --font-size-5: 13px;
+    --color-1: hsl(171, 66%, 44%);
+    --color-2: hsl(233, 100%, 69%);
+    --color-3: hsl(212, 11%, 27%);
+    --color-4: hsl(201, 11%, 66%);
+    --color-5: white;
+    --color-6: hsl(200, 16%, 96%);
+    --line-height: 1.5;
+    --font-weight-1: 400;
+    --font-weight-2: 500;
+    --font-weight-3: 600;
+    --font-weight-4: 700;
+    --border-radius-1: 80px;
+}
+body {
+    background-image: url(./images/bg-header-desktop.png);
+    background-color: var(--color-5);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.introduction-section {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.logo-img {
+    margin: 80px auto 30px;
+    width: 14%
+}
+.img-class {
+    width: 100%;
+    margin: 0 auto;
+}
+.about {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: var(--font-family);
+}
+.main-heading {
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-3);
+    margin: 10px auto;
+    text-align: center;
+    color: var(--color-3);
+}
+.description {
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-1);
+    text-align: center;
+    line-height: var(--line-height);
+    margin: 0 auto 20px;
+    width: 500px;
+    color: var(--color-4);
+}
+.buttons {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: var(--font-family);
+}
+.ios-btn {
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-1);
+    color: var(--color-5);
+    text-decoration: none;
+    margin: 10px 20px 50px 0;
+    background-color: var(--color-1);
+    border-radius: var(--border-radius-1);
+    padding: 12px 30px;
+}
+.mac-btn {
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-1);
+    color: var(--color-5);
+    text-decoration: none;
+    margin: 10px 10px 50px 0;
+    background-color: var(--color-2);
+    border-radius: var(--border-radius-1);
+    padding: 12px 30px;
+    border-bottom: 2px solid var(--color-2);
+}
+.benefits-section {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto 0;
+}
+.advantages {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: var(--font-family);
+}
+.secondary-heading {
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-3);
+    text-align: center;
+    color: var(--color-3);
+}
+.benefits-desc {
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-1);
+    text-align: center;
+    line-height: var(--line-height);
+    margin: 0 auto 20px;
+    width: 500px;
+    color: var(--color-4);
+}
+.eg-features {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px auto 30px;
+}
+.desktop-img {
+    width: 750px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 60px 20px -380px;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+.features {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: var(--font-family);
+    margin: 0 0 0 30px;
+}
+.sub-heading {
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-3);
+    color: var(--color-3);
+    margin: 0 0 10px 0;
+    padding: 0;
+    text-align: center;
+}
+.desc {
+    font-size: var(--font-size-5);
+    font-weight: var(--font-weight-1);
+    color: var(--color-4);
+    margin: 0 0 20px 0;
+    width: 280px;
+    line-height: var(--line-height);
+}
+.accessibility {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    font-family: var(--font-family);
+}
+.clipboard-img {
+    width: 70%;
+    margin: 20px auto 50px;
+}
+.functionality-section{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.heading {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 30px;
+    font-family: var(--font-family);
+}
+.tools {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.tool-img1, .tool-img2, .tool-img3 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 50px 0;
+    font-family: var(--font-family);
+    
+}
+.img-blacklist, .img-text, .img-preview {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto 20px auto;
+    
+}
+.desc1, .desc2, .desc3 {
+    font-size: var(--font-size-5);
+    font-weight: var(--font-weight-1);
+    color: var(--color-4);
+    margin: 0 0 20px 0;
+    text-align: center;
+    width: 280px;
+    line-height: var(--line-height);
+    
+}
+.customers-section {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+.google, .ibm, .microsoft, .hewlett, .vector {
+    margin: 0 30px;
+}
+.availability-section {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+}
+.available {
+    font-family: var(--font-family);
+    margin: 0 auto 10px;
+}
+.footer-section {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    background-color: var(--color-6);
+    width: 100%;
+}
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 70%;
+    margin: 10px auto;
+}
+
+.footer-img {
+    width: 50px;
+    margin: 20px 40px;
+}    
+
+.footer-links {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: var(--font-family);
+    margin: 10px 50px;
+    width: 60%;
+}
+.footerLinksColumn
+{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.footer-link {
+    font-size: var(--font-size-5);
+    font-weight: var(--font-weight-1);
+    text-decoration: none;
+    color: var(--color-3);
+    margin: 0 45px;
+    padding: 10px 0;
+}
+.social-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 50px 0 0;
+}
+.fb, .twitter, .insta {
+    margin: 10px 30px 10px 0;
+    width: 30px;
+    height: 30px;
+}
+.attribution {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+.attribution h6 {
+    font-family: var(--font-family);
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-2);
+    color: var(--color-3);
+    padding: 0 20px;
+    margin: 0;
+}
+.link {
+    text-decoration: none;
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-4);
+    color: var(--color-2);
+    text-align: center;
+    margin: 0;
+}
+.link:hover {
+    text-decoration: underline;
+}
+
+@media(max-width:1100px) {
+
+    .google, .ibm, .microsoft, .hewlett, .vector {
+        margin: 10px 30px 30px;
+    }
+    .desktop-img {
+        width: 650px;
+        margin: 20px 60px 20px -250px;
+    }
+}
+
+@media(max-width:900px) {
+
+    .eg-features {
+        flex-flow: column wrap;
+        justify-content: center;
+        margin: 30px auto;
+    }
+    .desktop-img {
+        width: 500px;
+        justify-content: center;
+        margin: 20px auto;
+    }
+    .features {
+        align-items: center;
+        margin: 30px auto;
+    }
+    .desc {
+        text-align: center;
+    }    
+    .google, .ibm, .microsoft, .hewlett, .vector {
+        margin: 0 30px 50px;
+    }
+    .footer-section {                                                   
+        flex-flow: column nowrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-img {
+        margin: 20px auto;
+    }
+    .footer-links {
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--font-family);
+        margin: 10px auto;
+        width: 90%;
+    }
+    .footer-link {
+        margin: 0 auto;
+        padding: 10px 20px;
+    }
+    .social-media {
+        justify-content: center;
+        margin: 20px auto;
+    }
+    .fb, .twitter, .insta {
+        margin: 10px auto;
+        padding: 0 20px;
+    }    
+    .attribution {
+        flex-flow: column wrap;
+    }
+    .attribution h6 {
+        margin: 0 auto 10px;
+    }
+}
+ @media(max-width:700px) {
+
+    body {
+        background-image: url(./images/bg-header-mobile.png);
+        background-color: var(--color-5);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .description {
+        width: 300px;
+    }
+    .buttons {
+        flex-flow: column wrap;
+    }
+    .benefits-section {
+        margin: 0 auto 30px;
+    }
+    .benefits-desc {
+        width: 350px;
+    }
+    .eg-features {
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+    .desktop-img {
+        width: 80%;
+        justify-content: center;
+        margin: 20px auto;
+    }
+    .features {
+        align-items: center;
+        margin: 0 auto;
+    }
+    .sub-heading {
+        margin: 0 auto 10px;
+    }
+    .desc {
+        text-align: center;
+    }
+    .clipboard-img {
+        width: 80%;
+    }
+    .tools {
+        align-items: center;
+    }
+    .tool-img1, .tool-img2, .tool-img3 {
+        margin: 0 auto 50px ;
+    }
+    .customers-section {
+        flex-flow: column wrap;
+    }
+    .google, .ibm, .microsoft, .hewlett, .vector {
+        margin: 20px auto;
+    }
+    .footer-section {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px auto;
+    }
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .footer-link {
+        font-size: var(--font-size-5);
+        font-weight: var(--font-weight-1);
+        text-decoration: none;
+        color: var(--color-3);
+        padding: 10px 0;
+        margin: 0;
+    }
+    .social-media {
+        justify-content: center;
+        margin: 10px auto;
+    }
+    .fb, .twitter, .insta {
+        margin: 10px auto;
+    }
+    .attribution {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .attribution h6 {
+        margin: 0 auto 20px;
+    }
+    
+ }
+
+ @media(max-width:375px) {
+     
+    .benefits-desc {
+        width: 300px;
+    }
+    .footer-section {
+        height: auto;
+        flex-flow: column nowrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .footer-content {
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content:space-evenly;
+    }
+    .footer-img {
+        margin: 20px auto;
+    }    
+    .footer-links {
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content:center;
+        margin: 30px auto;
+    }
+    .footer-link {
+        margin: 10px auto;
+    }
+    .social-media {
+        justify-content: center;
+        margin: 10px auto;
+    }
+    .fb, .twitter, .insta {
+        margin: 10px auto;
+    }
+
+}
