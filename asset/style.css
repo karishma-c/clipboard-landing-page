@@ -97,7 +97,6 @@ body {
     background-color: var(--color-2);
     border-radius: var(--border-radius-1);
     padding: 12px 30px;
-    border-bottom: 2px solid var(--color-2);
 }
 .benefits-section {
     display: flex;
@@ -423,7 +422,15 @@ img {
         width: 300px;
     }
     .buttons {
-        flex-flow: column wrap;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 40px auto
+    }
+    .ios-btn {
+        margin: 0 auto 10px;
+    }
+    .mac-btn {
+        margin: 10px auto;
     }
     .benefits-section {
         margin: 0 auto 30px;
@@ -510,6 +517,7 @@ img {
 
  @media(max-width:375px) {
      
+    
     .benefits-desc {
         width: 300px;
     }
